@@ -1,48 +1,48 @@
 export const experiences = [
   {
     id: "exp-1",
-    role: "Staff Frontend Architect",
-    company: "Vanguard Cloud Systems",
+    role: "Lead Automation & AI Workflow Systems Architect",
+    company: "Apex Automation Technologies",
     period: "2023 — Present",
     location: "San Francisco, CA (Hybrid)",
     summary:
-      "Spearheading the core UI architecture across 12 distributed product squads. Modernized enterprise dashboard systems to reactive micro-frontends with Framer Motion and Tailwind.",
+      "Directing core technical architecture across System Automation, AI Workflows, and Full-Stack Engineering. Designed intelligent self-healing enterprise automation pipelines saving 1,200+ engineering hours monthly.",
     highlights: [
-      "Engineered an enterprise design system utilized across 40+ production micro-apps, reducing developer cycle time by 42%.",
-      "Architected sub-100ms real-time telemetry dashboards handling millions of concurrent events.",
-      "Mentored 18 senior engineers on web performance, accessibility standards (WCAG AAA), and resilient client state management."
+      "Architected autonomous multi-agent AI workflow engines integrating custom RAG pipelines and enterprise system webhooks.",
+      "Engineered automated cloud CI/CD and infrastructure orchestration pipelines operating with 99.99% uptime.",
+      "Spearheaded full-stack platform modernization using React, TypeScript, Node.js, and Python FastAPI microservices."
     ],
-    skills: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "GraphQL", "WebSockets"]
+    skills: ["Advanced System Automation", "AI Workflow", "Full-Stack Development", "React", "Python", "Kubernetes", "Node.js"]
   },
   {
     id: "exp-2",
-    role: "Senior Full-Stack Engineer",
-    company: "HyperScale Networks",
+    role: "Senior Full-Stack & Automation Engineer",
+    company: "HyperScale Cloud Systems",
     period: "2021 — 2023",
     location: "Austin, TX (Remote)",
     summary:
-      "Led high-impact initiatives across the edge infrastructure team, building scalable developer tooling, self-healing deployment pipelines, and analytics consoles.",
+      "Led full-stack application development and backend automation infrastructure for high-scale cloud platforms handling millions of daily API transactions.",
     highlights: [
-      "Redesigned the primary customer onboarding pipeline, accelerating time-to-first-deploy from 15 minutes to 90 seconds.",
-      "Authored distributed caching layers in Redis and Node.js that slashed edge compute expenses by $180k/year.",
-      "Pioneered zero-downtime Blue/Green release orchestration across Kubernetes clusters."
+      "Built automated event-driven background job queues in Redis and Node.js that slashed cloud infrastructure overhead by $150k/year.",
+      "Created scalable full-stack web applications with React, Tailwind CSS, and resilient microservices.",
+      "Implemented automated monitoring, tracing, and self-healing deployment pipelines across multi-cloud environments."
     ],
-    skills: ["Node.js", "React", "Next.js", "Go", "Docker", "Kubernetes", "PostgreSQL"]
+    skills: ["Full-Stack Development", "Advanced System Automation", "React", "Node.js", "Docker", "PostgreSQL", "Tailwind CSS"]
   },
   {
     id: "exp-3",
-    role: "Frontend Systems Engineer",
-    company: "Aetherial Labs",
+    role: "Full-Stack Developer & AI Systems Specialist",
+    company: "Cognitive Workflow Labs",
     period: "2019 — 2021",
     location: "New York, NY",
     summary:
-      "Built interactive data visualization interfaces and algorithmic portfolio modeling tools for quantitative trading desks.",
+      "Developed intelligent web applications, AI integration tools, and backend system integrations for data-intensive enterprise client workflows.",
     highlights: [
-      "Implemented Canvas and WebGL visualizers rendering 100,000+ real-time tick markers at 60 FPS.",
-      "Standardized atomic state stores with optimistic updates, virtually eliminating perceived UI latency.",
-      "Collaborated closely with financial quants to convert mathematical models into interactive web simulations."
+      "Engineered full-stack interactive analytics platforms with zero-latency data visualization components.",
+      "Integrated natural language processing models and automated document pipelines into core business software.",
+      "Standardized clean, maintainable architecture patterns across web and API codebases."
     ],
-    skills: ["React", "TypeScript", "Canvas/WebGL", "RxJS", "D3.js", "Jest"]
+    skills: ["AI Workflow", "Full-Stack Development", "React", "TypeScript", "Python", "REST/GraphQL", "Jest"]
   }
 ];
 

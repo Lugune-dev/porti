@@ -1,104 +1,109 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce App",
-    subtitle: "High-throughput headless commerce platform with sub-100ms checkout",
+    title: "AutoFlow AI & System Automation Engine",
+    subtitle: "Enterprise event-driven workflow orchestrator with self-healing automation loops",
     size: "md:col-span-2",
-    tags: ["React", "Node", "Next.js", "Redis", "Stripe"],
-    metrics: "450k+ Monthly Orders • 99.99% Uptime",
+    category: "System Automation",
+    tags: ["Advanced System Automation", "AI Workflow", "Node.js", "Python", "Kubernetes", "Redis"],
+    metrics: "10M+ Executions/Day • 99.99% Uptime",
     description:
-      "Engineered an enterprise headless commerce orchestrator handling dynamic flash sales, edge-cached inventory sync, and real-time checkout pipelines. Reduced basket abandonment by 24% through instant optimistic cart mutations.",
+      "Architected an autonomous workflow orchestration platform that connects legacy backend pipelines with AI decision agents. Automates infrastructure failover, dynamic scaling, and complex multi-step enterprise business processes.",
     features: [
-      "Edge-computed inventory locking via Redis pub/sub",
-      "Stripe payment orchestrator with automated multi-currency settlement",
-      "Dynamic Bento analytics dashboard with zero-latency streaming updates",
-      "Sub-second global search indexing via Meilisearch"
+      "Event-driven trigger pipelines with real-time telemetry and dead-letter handling",
+      "Self-healing system scripts reducing manual DevOps incidents by 85%",
+      "Visual drag-and-drop workflow builder backed by deterministic execution DAGs",
+      "Automated compliance auditing with instant slack & email alerts"
     ],
-    accent: "from-violet-600/30 via-indigo-600/20 to-purple-600/10",
+    accent: "from-blue-600/30 via-indigo-600/20 to-slate-800/10",
     badgeColor: "accent",
-    demoUrl: "https://ecommerce-preview.example.com",
-    githubUrl: "https://github.com/developer/ecommerce-engine",
+    demoUrl: "https://autoflow-automation.example.com",
+    githubUrl: "https://github.com/developer/autoflow-automation-engine",
     featured: true
   },
   {
     id: 2,
-    title: "Crypto Tracker",
-    subtitle: "Real-time algorithmic orderbook & portfolio telemetry",
+    title: "Agentic AI Multi-Step Workflow Hub",
+    subtitle: "LLM agent orchestration framework with RAG vector search & dynamic tools",
     size: "md:col-span-1",
-    tags: ["React", "WebSockets", "Tailwind", "Chart.js"],
-    metrics: "12ms Tick Latency • 50+ DEX Feeds",
+    category: "AI Workflow",
+    tags: ["AI Workflow", "Full-Stack Development", "React", "FastAPI", "Pinecone", "LangChain"],
+    metrics: "120ms Vector Retrieval • 4.9★ Rating",
     description:
-      "A high-frequency cryptocurrency telemetry suite that multiplexes low-latency WebSockets streams from major liquidity pools. Features zero-jank Canvas charts and custom alert triggers.",
+      "A full-stack agentic platform enabling teams to create, test, and deploy customized AI workflows. Features dynamic prompt chaining, document embedding vector search, and automated code generation.",
     features: [
-      "Bi-directional WebSocket streaming with auto-reconnect backoff",
-      "Spring-animated candlestick visualizer with GPU acceleration",
-      "Zero-latency portfolio profit/loss computation engines"
+      "Multi-agent task delegation with streaming response visualization",
+      "Hybrid RAG architecture indexing unstructured enterprise documents",
+      "Human-in-the-loop review nodes for critical decision gates"
     ],
     accent: "from-cyan-500/20 via-blue-600/20 to-teal-500/10",
     badgeColor: "cyan",
-    demoUrl: "https://cryptotracker-preview.example.com",
-    githubUrl: "https://github.com/developer/crypto-streamer",
-    featured: false
+    demoUrl: "https://ai-workflow-hub.example.com",
+    githubUrl: "https://github.com/developer/ai-workflow-hub",
+    featured: true
   },
   {
     id: 3,
-    title: "AI Canvas Studio",
-    subtitle: "Multi-agent generative design and canvas workflow system",
+    title: "ScaleDeck Full-Stack SaaS Platform",
+    subtitle: "High-throughput cloud portal with real-time analytics & Stripe billing",
     size: "md:col-span-1",
-    tags: ["TypeScript", "Python", "FastAPI", "Radix UI"],
-    metrics: "85k Active Workspaces • 4.9★ Rating",
+    category: "Full-Stack Development",
+    tags: ["Full-Stack Development", "React", "Next.js", "Node.js", "PostgreSQL", "Tailwind"],
+    metrics: "500k+ Active Users • Sub-100ms API",
     description:
-      "Collaborative infinite-canvas workspace uniting multimodal LLM agents with deterministic layout trees. Empowers design teams to prototype fluid user interfaces in real time.",
+      "End-to-end full-stack cloud application featuring decoupled microservices, role-based access control (RBAC), subscription management, and responsive real-time data dashboards.",
     features: [
-      "CRDT-based conflict-free multiplayer canvas synchronization",
-      "Context-aware AI node generation with vector retrieval",
-      "Export directly to clean Tailwind CSS and React codebases"
+      "Serverless GraphQL API layer with Redis edge caching",
+      "Responsive accessible interface with dark/light mode and micro-interactions",
+      "Automated subscription lifecycle webhooks via Stripe"
     ],
-    accent: "from-emerald-500/20 via-teal-600/20 to-green-500/10",
+    accent: "from-indigo-500/20 via-slate-600/20 to-blue-500/10",
     badgeColor: "emerald",
-    demoUrl: "https://aicanvas.example.com",
-    githubUrl: "https://github.com/developer/ai-canvas-studio",
+    demoUrl: "https://scaledeck-platform.example.com",
+    githubUrl: "https://github.com/developer/scaledeck-fullstack",
     featured: false
   },
   {
     id: 4,
-    title: "DevOps Observability Matrix",
-    subtitle: "Distributed tracing aggregator for multi-cloud Kubernetes clusters",
+    title: "DevOps & Infrastructure Automation Matrix",
+    subtitle: "Automated Kubernetes cluster provisioning & CI/CD deployment pipelines",
     size: "md:col-span-2",
-    tags: ["React", "Go", "GraphQL", "OpenTelemetry", "Docker"],
-    metrics: "1.2B Events/Day • Zero-overhead Agent",
+    category: "System Automation",
+    tags: ["Advanced System Automation", "Full-Stack Development", "Docker", "Terraform", "Go", "GraphQL"],
+    metrics: "Zero-Downtime Releases • 90% Faster CI",
     description:
-      "Unified observability control plane providing instant correlation across distributed traces, p99 latency spikes, and microservice mesh anomalies across AWS, GCP, and bare-metal nodes.",
+      "Built a unified developer portal and automation control plane that provisions multi-region infrastructure using Terraform and GitOps. Streamlines code delivery from git commit to production.",
     features: [
-      "Interactive dependency graph visualization with WebGL",
-      "Automated root-cause anomaly detection alerts via eBPF probes",
-      "Real-time cluster health heatmaps with sub-second refreshes"
+      "Automated canary deployments with eBPF metrics verification",
+      "Interactive dependency graph rendering cluster state in real time",
+      "One-click environment teardown and policy enforcement"
     ],
-    accent: "from-purple-600/25 via-pink-600/20 to-rose-600/10",
+    accent: "from-sky-600/25 via-blue-700/20 to-slate-900/10",
     badgeColor: "accent",
-    demoUrl: "https://matrix-ops.example.com",
-    githubUrl: "https://github.com/developer/matrix-observability",
+    demoUrl: "https://automation-matrix.example.com",
+    githubUrl: "https://github.com/developer/automation-matrix",
     featured: true
   },
   {
     id: 5,
-    title: "Neural Audio Workstation",
-    subtitle: "In-browser WebAudio DAW with neural DSP voice filters",
+    title: "AI Automation Copilot & Document Pipeline",
+    subtitle: "Automated OCR, semantic extraction, and AI agent output processing",
     size: "md:col-span-3",
-    tags: ["WebAssembly", "WebAudio API", "React", "Framer Motion", "Rust"],
-    metrics: "4.2ms Audio Buffer • Studio-grade Quality",
+    category: "AI Workflow",
+    tags: ["AI Workflow", "Advanced System Automation", "Full-Stack Development", "Python", "React", "TypeScript"],
+    metrics: "1M+ Documents Processed • 99.4% Accuracy",
     description:
-      "A complete digital audio workstation engineered in the browser. Powered by Rust compiled to WebAssembly for DSP audio processing with zero dropouts, responsive spring dials, and dynamic spectral analysis.",
+      "An end-to-end AI workflow system that ingests unstructured PDF contracts, extracts key metadata with high precision LLMs, and triggers automated ERP synchronization.",
     features: [
-      "Lock-free AudioWorklet thread orchestrating DSP effects",
-      "Framer Motion elastic knob & slider controls with physical inertia",
-      "Real-time FFT audio visualizer rendering 60fps waveform cascades",
-      "Cloud project synchronization with lossless FLAC export"
+      "Asynchronous celery queue workers for batch AI document extraction",
+      "Full-stack React review interface with side-by-side OCR highlight verification",
+      "Automated fallback routes to manual review queues upon low confidence scores",
+      "Webhooks integrating with SAP, Salesforce, and custom ERPs"
     ],
-    accent: "from-indigo-600/25 via-violet-600/20 to-cyan-500/15",
+    accent: "from-blue-600/25 via-cyan-600/20 to-indigo-500/15",
     badgeColor: "accent",
-    demoUrl: "https://neural-daw.example.com",
-    githubUrl: "https://github.com/developer/neural-daw",
+    demoUrl: "https://ai-copilot-pipeline.example.com",
+    githubUrl: "https://github.com/developer/ai-copilot-pipeline",
     featured: true
   }
 ];

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Briefcase, Calendar, MapPin, ChevronRight, CheckCircle, Sparkles } from "lucide-react";
+import { Briefcase, Calendar, MapPin, ChevronRight, CheckCircle } from "lucide-react";
 import { experiences } from "../data/experience";
 import { Badge } from "./ui/badge";
 
@@ -12,15 +12,15 @@ export default function Experience() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-400 text-xs font-semibold mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold mb-3">
             <Briefcase className="h-3.5 w-3.5" />
-            <span>Interactive Reactive Ledger</span>
+            <span>Interactive Experience Ledger</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
-            Engineering Experience
+            Engineering & Leadership Track Record
           </h2>
-          <p className="mt-2 text-sm sm:text-base text-slate-400">
-            Track record designing mission-critical frontend engines, scaling cloud microservices, and leading distributed engineering squads.
+          <p className="mt-2 text-sm sm:text-base text-slate-300">
+            Track record designing mission-critical automated pipelines, high-throughput full-stack architectures, and AI workflows.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export default function Experience() {
                 }}
                 className={`p-6 sm:p-7 rounded-3xl border transition-all duration-300 ${
                   isExpanded
-                    ? "bg-slate-900/90 border-violet-500/50 shadow-2xl shadow-violet-950/20"
+                    ? "bg-slate-900/90 border-blue-500/50 shadow-2xl shadow-blue-950/20"
                     : "bg-slate-900/50 hover:bg-slate-900/80 border-slate-800/80 hover:border-slate-700"
                 }`}
               >
@@ -65,24 +65,24 @@ export default function Experience() {
                         </span>
                       )}
                     </div>
-                    <div className="text-sm font-medium text-violet-400 mt-0.5">
+                    <div className="text-sm font-semibold text-blue-400 mt-0.5">
                       {exp.company}
                     </div>
                   </div>
 
                   <div className="flex items-center gap-4 text-xs text-slate-400">
-                    <div className="flex items-center gap-1.5">
-                      <Calendar className="h-3.5 w-3.5 text-slate-500" />
+                    <div className="flex items-center gap-1.5 font-medium">
+                      <Calendar className="h-3.5 w-3.5 text-slate-400" />
                       <span>{exp.period}</span>
                     </div>
-                    <div className="hidden sm:flex items-center gap-1.5">
-                      <MapPin className="h-3.5 w-3.5 text-slate-500" />
+                    <div className="hidden sm:flex items-center gap-1.5 font-medium">
+                      <MapPin className="h-3.5 w-3.5 text-slate-400" />
                       <span>{exp.location}</span>
                     </div>
                     <motion.div
                       animate={{ rotate: isExpanded ? 90 : 0 }}
                       transition={{ type: "spring", stiffness: 400, damping: 20 }}
-                      className="p-1 rounded-full bg-slate-800 text-slate-400"
+                      className="p-1 rounded-full bg-slate-800 text-slate-300"
                     >
                       <ChevronRight className="h-4 w-4" />
                     </motion.div>
@@ -106,12 +106,12 @@ export default function Experience() {
 
                         <div className="space-y-2">
                           <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-                            Key Accomplishments
+                            Key System Accomplishments
                           </h4>
                           <ul className="space-y-2">
                             {exp.highlights.map((item, hIdx) => (
-                              <li key={hIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-300">
-                                <CheckCircle className="h-4 w-4 text-violet-400 shrink-0 mt-0.5" />
+                              <li key={hIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-200">
+                                <CheckCircle className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
                                 <span>{item}</span>
                               </li>
                             ))}
